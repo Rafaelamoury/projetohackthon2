@@ -1,0 +1,10 @@
+**/bin/
+**/obj/
+**/node_modules/
+**/dist/
+**/.vs/
+**/.vscode/
+*.user
+inovatrace/data/_scan_tmp.txt
+inovatrace/data/_scan2.txt
+inovatrace/data/_pdf.txt

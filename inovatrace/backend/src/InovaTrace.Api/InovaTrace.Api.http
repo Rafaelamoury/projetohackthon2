@@ -1,0 +1,6 @@
+@InovaTrace.Api_HostAddress = http://localhost:5249
+
+GET {{InovaTrace.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

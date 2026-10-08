@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/InovaTrace.Api/InovaTrace.Api.csproj" />
+    <Project Path="src/InovaTrace.Application/InovaTrace.Application.csproj" />
+    <Project Path="src/InovaTrace.Domain/InovaTrace.Domain.csproj" />
+    <Project Path="src/InovaTrace.Infrastructure/InovaTrace.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/InovaTrace.Tests/InovaTrace.Tests.csproj" />
+  </Folder>
+</Solution>

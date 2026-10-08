@@ -1,0 +1,14 @@
+services:
+  postgres:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: inovatrace
+      POSTGRES_PASSWORD: inovatrace
+      POSTGRES_DB: inovatrace
+    ports:
+      - "5433:5432"
+    volumes:
+      - inovatrace-pg:/var/lib/postgresql/data
+
+volumes:
+  inovatrace-pg:
